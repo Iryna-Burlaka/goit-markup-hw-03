@@ -2,19 +2,77 @@
   --head-color: #2e2f42;
 }
 
-body {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  color: #434455;
-  background-color: #ffffff;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
 .link {
   text-decoration: none;
 }
 
 .list {
   list-style-type: none;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  color: #434455;
+  background-color: #ffffff;
+}
+.container {
+  width: 100%;
+  max-width: 11158px;
+  padding: 0 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
+
+.header {
+  padding-top: 25.5px;
+  padding-bottom: 25.5px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-naviganion {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.menu-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.address-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.new-list {
+  display: flex;
+  padding-top: 120;
+  padding-bottom: 120;
 }
 
 .header-logo {
@@ -72,9 +130,14 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+  margin: 0 auto;
+  max-width: 496;
 }
 .hero {
   background-color: var(--head-color);
+  display: flex;
+  align-items: center;
+  padding: ;
 }
 
 .btn {
@@ -86,7 +149,7 @@ body {
   cursor: pointer;
 }
 
- .portfolio-btn {
+.portfolio-btn {
   background-color: #f4f4fd;
   color: #4d5ae5;
 }
@@ -94,6 +157,10 @@ body {
 .order-btn {
   color: #ffffff;
   background-color: #4d5ae5;
+  width: 169px;
+  height: 56px;
+  padding: 16px 32px 16px 32px;
+  margin: 0 auto;
 }
 
 .btn:hover {
@@ -107,7 +174,16 @@ body {
 .team {
   background-color: #f4f4fd;
 }
-.team-head,
+.team-head {
+  color: var(--head-color);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+}
+
 .doing-head {
   color: var(--head-color);
   font-size: 36px;
@@ -118,7 +194,14 @@ body {
   text-align: center;
 }
 
-.app-head,
+.app-head {
+  color: var(--head-color);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
 .new-head {
   color: var(--head-color);
   font-size: 36px;
