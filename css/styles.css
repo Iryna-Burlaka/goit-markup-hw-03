@@ -40,13 +40,10 @@ body {
   margin: 0 auto;
 }
 
-.border {
-  border-bottom: 1px solid #e7e9fc;
-}
-
 .header .container {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-naviganion {
@@ -138,11 +135,11 @@ body {
 }
 
 .app-container {
-  padding-top: 96px;
-  padding-bottom: 72px;
+  padding: 96px 0 120px 0;
 }
 
 .app-head {
+  visibility: hidden;
 }
 
 .button-list {
@@ -186,6 +183,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  visibility: hidden;
 }
 
 .container .img-list {
@@ -195,7 +193,7 @@ body {
   padding-bottom: 72px;
 }
 
-.thumb {
+img {
   display: block;
   max-width: 100%;
   margin: 0 auto;
@@ -219,7 +217,7 @@ body {
   letter-spacing: 0.02em;
   list-style: none;
   width: calc((100% -24px * 3) / 4);
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .text {
@@ -239,7 +237,7 @@ body {
 
 .footer {
   background-color: var(--head-color);
-  padding: 100px;
+  padding: 100px 0;
   align-items: start;
   display: block;
 }
@@ -253,7 +251,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   display: flex;
-  margin-bottom: 17.5px;
+  margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-logo-accent {
@@ -305,6 +304,8 @@ body {
   height: 56px;
   padding: 16px 32px;
   margin: 0 auto;
+  display: block;
+  border-radius: 4px;
 }
 
 .doing {
@@ -327,7 +328,7 @@ body {
   text-transform: capitalize;
   text-align: center;
   align-items: center;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team {
