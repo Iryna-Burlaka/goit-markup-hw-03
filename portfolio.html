@@ -12,31 +12,31 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="header border">
     <div class="container">
       <nav class="header-naviganion">
         <a class="header-logo link" href="./index.html">Web<span class="header-logo-accent">Studio</span></a>
         <ul class="menu-list list">
-          <li><a class="menu-item link" href="./index.html" target="_blank">Studio</a></li>
-          <li><a class="menu-item link" href="./portfolio.html" target="_blank">Portfolio</a></li>
-          <li><a class="menu-item link" href="" target="_blank">Contacts</a></li>
+          <li class="menu-item"><a class="menu-link link" href="./index.html" target="_blank">Studio</a></li>
+          <li class="menu-item"><a class="menu-link link" href="./portfolio.html" target="_blank">Portfolio</a></li>
+          <li class="menu-item"><a class="menu-link link" href="" target="_blank">Contacts</a></li>
         </ul>
       </nav>
-
       <address class="address">
         <ul class="address-list list">
-          <li><a class="address-item link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a class="address-item link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          <li class="address-item"><a class="address-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="adress-item"><a class="address-link link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
     </div>
   </header>
 
 
-  <main>
+  <div>
     <section class="app">
-      <div class="thumb">
-        <h1 class="app-head">Portfolio</h1>
+      <div class="container app-container">
+        <h1 hidden class="app-head">Portfolio</h1>
         <ul class="button-list list">
           <li class="button-item">
             <button class="btn portfolio-btn" type="button">All</button>
@@ -54,76 +54,114 @@
             <button class="btn portfolio-btn" type="button">Marketing</button>
           </li>
         </ul>
-
-
-
-        <ul class="img list">
-          <li class="img-item">
-            <a class="link"><img class="img" src="./images/banking-app.jpg" alt="Banking-App" width="360"
-                height="300" />
-              <h2 class="head">Banking App Interface Concept</h2>
-              <p class="text">App</p>
-            </a>
-          </li>
-          <li class="img-item">
-            <a class="link"><img class="img" src="./images/cashless-payment.jpg" alt="Cashless-Payment" width="360"
-                height="300" />
-              <h2 class="head">Cashless Payment</h2>
-              <p class="text">Marketing</p>
-            </a>
-          </li>
-          <li class="img-ite">
-            <a class="link"><img class="img" src="./images/meditation-app.jpg" alt="Meditation-App" width="360"
-                height="300" />
-              <h2 class="head">Meditation App</h2>
-              <p class="text">App</p>
-            </a>
-          </li>
-          <li class="img-item">
-            <a class="link"><img class="img" src="./images/taxi-service.jpg" alt="Taxi-Service" width="360"
-                height="300" />
-              <h2 class="head">Taxi Service</h2>
-              <p class="text">Marketing</p>
-            </a>
-          </li>
-          <li class="img-item">
-            <a class="link"><img class="img" src="./images/screen-illustration.jpg" alt="Screen-Illustration"
-                width="360" height="300" />
-              <h2 class="head">Screen Illustrations</h2>
-              <p class="text">Design</p>
-            </a>
-          </li>
-          <li class="img-item">
-            <a class="link"><img class="img" src="./images/online-courses.jpg" alt="Online-Courses" width="360"
-                height="300" />
-              <h2 class="head">Online Courses</h2>
-              <p class="text">Marketing</p>
-            </a>
-          </li>
-          <li class="img-item">
-            <a class="link"><img class="img" src="./images/instagram-stories.jpg" alt="Instagram-Stories" width="360"
-                height="300" />
-              <h2 class="head">Instagram Stories Concept</h2>
-              <p class="text">Design</p>
-            </a>
-          </li>
-          <li class="img-item">
-            <a class="link"><img class="img" src="./images/organic-food.jpg" alt="Organic-Food" width="360"
-                height="300" />
-              <h2 class="head">Organic Food</h2>
-              <p class="text">Web Site</p>
-            </a>
-          </li>
-          <li class="img-item">
-            <a class="link"><img class="img" src="./images/fresh-coffee.jpg" alt="Fresh-Coffee" width="360"
-                height="300" />
-              <h2 class="head">Fresh Coffee</h2>
-              <p class="text">Web Site</p>
-            </a>
-          </li>
-        </ul>
-      </div>
     </section>
+  </div>
+
+  <!-- <section class="app-img"> -->
+  <div class="container">
+    <ul class="img-list list">
+      <li class="img-item">
+        <a class="link">
+          <div class="thumb"><img class="img" src="./images/banking-app.jpg" alt="Banking-App" width="360"
+              height="300" />
+          </div>
+          <div class="thumb-text">
+            <h2 class="head">Banking App Interface Concept</h2>
+            <p class="text">App</p>
+          </div>
+        </a>
+      </li>
+      <li class="img-item">
+        <a class="link">
+          <div class="thumb"><img class="img" src="./images/cashless-payment.jpg" alt="Cashless-Payment" width="360"
+              height="300" />
+          </div>
+          <div class="thumb-text">
+            <h2 class="head">Cashless Payment</h2>
+            <p class="text">Marketing</p>
+          </div>
+        </a>
+      </li>
+      <li class="img-item">
+        <a class="link">
+          <div class="thumb"><img class="img" src="./images/meditation-app.jpg" alt="Meditation-App" width="360"
+              height="300" />
+          </div>
+          <div class="thumb-text">
+            <h2 class="head">Meditation App</h2>
+            <p class="text">App</p>
+          </div>
+        </a>
+      </li>
+      <li class="img-item">
+        <a class="link">
+          <div class="thumb"><img class="img" src="./images/taxi-service.jpg" alt="Taxi-Service" width="360"
+              height="300" />
+          </div>
+          <div class="thumb-text">
+            <h2 class="head">Taxi Service</h2>
+            <p class="text">Marketing</p>
+          </div>
+        </a>
+      </li>
+      <li class="img-item">
+        <a class="link">
+          <div class="thumb"><img class="img" src="./images/screen-illustration.jpg" alt="Screen-Illustration"
+              width="360" height="300" />
+          </div>
+          <div class="thumb-text">
+            <h2 class="head">Screen Illustrations</h2>
+            <p class="text">Design</p>
+          </div>
+        </a>
+      </li>
+      <li class="img-item">
+        <a class="link">
+          <div class="thumb"><img class="img" src="./images/online-courses.jpg" alt="Online-Courses" width="360"
+              height="300" />
+          </div>
+          <div class="thumb-text">
+            <h2 class="head">Online Courses</h2>
+            <p class="text">Marketing</p>
+          </div>
+        </a>
+      </li>
+      <li class="img-item">
+        <a class="link">
+          <div class="thumb"><img class="img" src="./images/instagram-stories.jpg" alt="Instagram-Stories" width="360"
+              height="300" />
+          </div>
+          <div class="thumb-text">
+            <h2 class="head">Instagram Stories Concept</h2>
+            <p class="text">Design</p>
+          </div>
+        </a>
+      </li>
+      <li class="img-item">
+        <a class="link">
+          <div class="thumb"><img class="img" src="./images/organic-food.jpg" alt="Organic-Food" width="360"
+              height="300" />
+          </div>
+          <div class="thumb-text">
+            <h2 class="head">Organic Food</h2>
+            <p class="text">Web Site</p>
+          </div>
+        </a>
+      </li>
+      <li class="img-item">
+        <a class="link">
+          <div class="thumb"><img class="img" src="./images/fresh-coffee.jpg" alt="Fresh-Coffee" width="360"
+              height="300" />
+          </div>
+          <div class="thumb-text">
+            <h2 class="head">Fresh Coffee</h2>
+            <p class="text">Web Site</p>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!-- </section> -->
   </main>
 
 
