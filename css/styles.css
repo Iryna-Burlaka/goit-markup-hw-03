@@ -157,14 +157,9 @@ body {
   border: none;
 }
 
-/* ----------------------------NEW--------------------- */
+/* ------------------NEW------------------- */
 .new {
   padding: 120px 0;
-}
-
-.container .new {
-  display: flex;
-  justify-content: space-between;
 }
 
 .new-head {
@@ -174,7 +169,6 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  visibility: hidden;
 }
 
 .new-list {
@@ -184,18 +178,26 @@ body {
   margin: 0 auto;
 }
 
-.new-item {
-  width: calc((100% - 24px * 3) / 4);
-}
-
-.new-item.head {
+.head {
+  color: var(--head-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  list-style: none;
   margin-bottom: 8px;
 }
 
-.new-item .text {
+.text {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  list-style: none;
 }
 
-/* ---------------------DOING------------------------- */
+/* -------------DOING--------------------- */
 
 .doing {
   padding: 120px 0;
@@ -204,7 +206,6 @@ body {
 .doing-list {
   display: flex;
   gap: 24px;
-  /* padding-bottom: 120px; */
 }
 
 .doing-head {
@@ -245,46 +246,21 @@ body {
   gap: 24px;
 }
 
-.team-item .thumb {
+.team-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-  width: calc((100% - 3 * 24px) / 4);
 }
 
 .thumb-team {
-  padding: 32px 16px;
   display: flex;
-  align-items: center;
   flex-direction: column;
+  padding: 32px 16px;
+  align-items: center;
 }
-.team-item .head {
-  text-align: center;
+
+.thumb-team .head {
+  align-items: center;
   margin-bottom: 8px;
-}
-
-.team-item .text {
-  text-align: center;
-}
-
-.head {
-  color: var(--head-color);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  list-style: none;
-  width: calc((100% - 3 * 24px) / 4);
-  margin-bottom: 8px;
-}
-
-.text {
-  color: #434455;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  list-style: none;
-  width: calc((100% - 3 * 24px) / 4);
 }
 
 /* ---------------------APP------------------------- */
@@ -344,7 +320,7 @@ body {
 }
 
 img {
-  display: block;
+  display: flex;
   max-width: 100%;
   margin: 0 auto;
   gap: 24px;
@@ -358,6 +334,7 @@ img {
   margin-bottom: 48px;
   padding: 32px 16px;
 }
+
 /* ----------------------FOOTER------------------------ */
 .footer {
   background-color: var(--head-color);
