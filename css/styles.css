@@ -158,11 +158,13 @@ body {
 }
 
 /* ----------------------------NEW--------------------- */
+.new {
+  padding: 120px 0;
+}
 
 .container .new {
   display: flex;
   justify-content: space-between;
-  padding: 120px 0;
 }
 
 .new-head {
@@ -196,14 +198,13 @@ body {
 /* ---------------------DOING------------------------- */
 
 .doing {
+  padding: 120px 0;
 }
 
-.doing-container .doing-list {
+.doing-list {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 auto;
-  padding-bottom: 120px;
+  gap: 24px;
+  /* padding-bottom: 120px; */
 }
 
 .doing-head {
