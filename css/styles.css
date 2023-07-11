@@ -329,6 +329,8 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 72px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .thumb-text {
