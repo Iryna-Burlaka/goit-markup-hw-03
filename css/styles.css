@@ -178,6 +178,10 @@ body {
   margin: 0 auto;
 }
 
+.new-item {
+  width: calc((100% - 3 * 24px) / 4);
+}
+
 .head {
   color: var(--head-color);
   font-size: 20px;
