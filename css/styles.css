@@ -162,7 +162,7 @@ body {
   padding: 120px 0;
 }
 
-.new-head {
+.visually-hidden {
   color: var(--head-color);
   font-size: 36px;
   font-weight: 700;
